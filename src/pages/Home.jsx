@@ -13,7 +13,10 @@ const Home = () => {
       <Grid container direction="column" sx={{ flexGrow: 1, backgroundColor: "#f5f5f5" }}>
         <Navbar />
         <Progress/>
+      
     <MyDataGrid/>
+
+     
             
       </Grid>
     </Box>

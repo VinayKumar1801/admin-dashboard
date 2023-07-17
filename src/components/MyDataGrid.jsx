@@ -27,6 +27,7 @@ const columns = [
             // fontWeight: "bold",
             textTransform: "none",
             borderRadius: "10px",
+            // border:"2px solid red"
           }}
         >
           {statusText}
@@ -40,7 +41,7 @@ const MyDataGrid = () => {
   return (
     <div
       style={{
-        height: 400,
+        height: 410,
         // width: "100%",
         margin: "20px",
         backgroundColor: "white",
@@ -49,7 +50,7 @@ const MyDataGrid = () => {
         borderRadius: "20px",
       }}
     >
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems:"center" }}>
         <div>
           <p style={{ color: "#16C098" }}>Active Members</p>
         </div>
@@ -59,21 +60,34 @@ const MyDataGrid = () => {
               type="text"
               placeholder="Search"
               style={{
-                borderRadius: "10px",
-                border: "1px solid grey",
-                padding: "2px 5px",
+                borderRadius: "5px",
+                border: "none",
+                padding: "5px 10px",
+                backgroundColor: "#f5f5f5",
+                fontSize:"19px"
               }}
             />
           </div>
-          <div>
-            <label htmlFor=""> Sort by</label>
+          <div
+            style={{
+              backgroundColor: "#f5f5f5",
+              borderRadius: "5px",
+              border: "none",
+              padding: "5px 10px",
+            }}
+          >
+            <label htmlFor="" style={{ color: "gray", marginRight: "5px" }}>
+              {" "}
+              Sort by :
+            </label>
             <select
               name=""
               id=""
               style={{
                 borderRadius: "10px",
-                border: "1px solid grey",
+                border: "none",
                 padding: "2px 5px",
+                color: "gray",
               }}
             >
               <option value="">Newest</option>
@@ -91,6 +105,7 @@ const MyDataGrid = () => {
         }}
         sx={{
           border: "none",
+          height:"400px"
         }}
       />
     </div>
