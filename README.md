@@ -1,6 +1,6 @@
 # My App
 
-This is a sample app built with React and Material-UI. It showcases various components and features using dummy data.
+This is a sample dashboard app built with React and Material-UI. It showcases various components and features using dummy data.
 
 [![Screenshot-2023-07-17-171032.jpg](https://i.postimg.cc/zXSVDCDm/Screenshot-2023-07-17-171032.jpg)](https://postimg.cc/HVnpB773)
 
