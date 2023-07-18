@@ -21,23 +21,21 @@ const Progress = () => {
           backgroundColor: "white",
         }}
       >
-        <h2>All Customers</h2>
+        <h2 style={{ marginBottom: "30px" }}>All Customers</h2>
         <div
           style={{
             display: "flex",
             justifyContent: "space-evenly",
             textAlign: "center",
-    
           }}
         >
-
-            <PieCharts/>
+          <PieCharts />
         </div>
       </div>
       <div
         style={{
           flex: "1",
-    
+
           borderRadius: "20px",
           padding: "25px",
           backgroundColor: "white",
@@ -45,10 +43,10 @@ const Progress = () => {
       >
         <div>
           <div>
-            <h2>Stats Overview</h2>
+            <h2 style={{ marginBottom: "30px" }}>Stats Overview</h2>
           </div>
           <div>
-            <ProgressLines/>
+            <ProgressLines />
           </div>
         </div>
       </div>

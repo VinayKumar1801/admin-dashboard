@@ -29,10 +29,15 @@ const PieCharts = () => {
             style={{ width: "80px", height: "80px" }}
           />
           <Typography
+            style={{ position: "relative", bottom: "58px", left: "2px" }}
             color={item.color}
             variant="h6"
           >{`${item.value}%`}</Typography>
-          <Typography color={"gray"} variant="subtitle2">
+          <Typography
+            style={{ position: "relative", bottom: "20px", left: "2px" }}
+            color={"gray"}
+            variant="subtitle2"
+          >
             {item.title}
           </Typography>
         </Box>
