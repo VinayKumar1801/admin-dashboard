@@ -4,6 +4,8 @@ This is a sample dashboard app built with React and Material-UI. It showcases va
 
 [![Screenshot-2023-07-17-171032.jpg](https://i.postimg.cc/zXSVDCDm/Screenshot-2023-07-17-171032.jpg)](https://postimg.cc/HVnpB773)
 
+## Video Link - https://drive.google.com/file/d/1L1EW1D8RZ5_McD9ArSdXR-8aiORB3Sus/view?usp=sharing
+
 ## Features
 
 - Sidebar and Navbar components for navigation
